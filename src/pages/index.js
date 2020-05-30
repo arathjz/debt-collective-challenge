@@ -1,18 +1,48 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 
-const Label = styled.p`
-  background: ${({ theme }) => {
-    return theme.mainColor;
-  }};
+const StyledMain = styled.div`
+  align-items: center;
+  background: ${({ theme }) => theme.mainColor};
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    color: ${({ theme }) => theme.textColor};
+    font-size: 6rem;
+  }
+`;
+
+const StyledLink = styled(Link)`
+  align-items: center;
+  background: ${({ theme }) => theme.alternary};
+  border: 1px solid ${({ theme }) => theme.secondary};
+  border-radius: 1.5rem;
+  color: ${({ theme }) => theme.textColor};
+  display: flex;
+  font-size: 1.5rem;
+  height: 60px;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+  width: 320px;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+  }
 `;
 
 export default function UsersList() {
   return (
     <Layout>
-      <Label>hey</Label>
+      <StyledMain>
+        <h2>Welcome!</h2>
+        <StyledLink to="/repositories">View repositories</StyledLink>
+      </StyledMain>
     </Layout>
   );
 }

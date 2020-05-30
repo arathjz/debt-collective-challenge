@@ -1,9 +1,12 @@
 /* eslint-disable import/no-dynamic-require */
 /* eslint-disable global-require */
+const fetch = require('node-fetch');
+const { createHttpLink } = require('apollo-link-http');
+
 module.exports = {
   siteMetadata: {
-    title: 'Open collective challenge',
-    description: 'Open collective',
+    title: 'Debt collective challenge',
+    description: 'Debt collective',
     author: '@arathjz',
   },
   plugins: [
@@ -35,6 +38,20 @@ module.exports = {
         theme_color: '#663399',
         display: 'minimal-ui',
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        fieldName: 'github',
+        typeName: 'GitHub',
+        createLink: () => createHttpLink({
+          uri: 'https://api.github.com/graphql',
+          headers: {
+            Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+          },
+          fetch,
+        }),
       },
     },
   ],

@@ -1,6 +1,11 @@
-import React, { useContext } from 'react';
-import { ThemeManagerContext } from 'gatsby-styled-components-dark-mode';
-import { createGlobalStyle } from 'styled-components';
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import styled, { createGlobalStyle } from 'styled-components';
+
+import useOrganization from '../hooks/useOrganization';
+import SEO from './seo';
+import ThemeToggler from './theme-toggler';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -10,6 +15,8 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
   }
 
   * {
@@ -17,24 +24,50 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-function Layout(props) {
-  const themeContext = useContext(ThemeManagerContext);
+const StyledLayout = styled.div`
+  margin: auto;
+  max-width: 1400px;
+
+  > section {
+    [src] {
+      height: auto;
+      width: 200px;
+    }
+
+    h1 {
+      color: ${({ theme }) => theme.textColor};
+      font-size: 3rem;
+      margin: 0 0 0 8rem;
+    }
+
+    align-items: center;
+    border-bottom: 1px solid ${({ theme }) => theme.textColor};
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+  }
+`;
+
+function Layout({ children }) {
+  const organization = useOrganization();
 
   return (
-    <div>
+    <StyledLayout>
+      <SEO />
       <GlobalStyle />
-      <label>
-        <input
-          type="checkbox"
-          onChange={() => themeContext.toggleDark()}
-          checked={themeContext.isDark}
-        />
-        {' '}
-        Dark mode
-      </label>
-      <div>{props.children}</div>
-    </div>
+      <ThemeToggler />
+      <section>
+        <img src={organization.avatarUrl} alt={organization.name} />
+        <h1>{organization.name}</h1>
+      </section>
+      <div>{children}</div>
+    </StyledLayout>
   );
 }
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export default Layout;
