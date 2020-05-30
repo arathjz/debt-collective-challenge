@@ -38,7 +38,7 @@ const StyledLink = styled(Link)`
   justify-content: center;
   text-decoration: none;
   transition: 0.3s ease-in;
-  width: 320px;
+  width: 300px;
 
   &:hover {
     transform: scale(1.1);
