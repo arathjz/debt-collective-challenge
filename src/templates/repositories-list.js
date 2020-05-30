@@ -74,7 +74,7 @@ export default function RepositoriesList({ data, pageContext }) {
           } = node;
 
           return (
-            <StyledRepositoy key={node.id}>
+            <StyledRepositoy key={node.id} data-testid="repository">
               <StyledLink to={`/repositories/${name}`}>
                 {name}
                 {' '}
@@ -87,23 +87,23 @@ export default function RepositoriesList({ data, pageContext }) {
               <div className="icons">
                 <p>
                   <Icon name="star" />
-                  <span>{stargazers.totalCount}</span>
+                  <span data-testid="stars">{stargazers.totalCount}</span>
                 </p>
                 <p>
                   <Icon name="fork" />
-                  <span>{forks.totalCount}</span>
+                  <span data-testid="forks">{forks.totalCount}</span>
                 </p>
                 <p>
                   <Icon name="pullRequest" />
-                  <span>{pullRequests.totalCount}</span>
+                  <span data-testid="pullRequests">{pullRequests.totalCount}</span>
                 </p>
                 <p>
                   <Icon name="watch" />
-                  <span>{watchers.totalCount}</span>
+                  <span data-testid="watchers">{watchers.totalCount}</span>
                 </p>
                 <p>
                   <Icon name="issue" />
-                  <span>{issues.totalCount}</span>
+                  <span data-testid="issues">{issues.totalCount}</span>
                 </p>
               </div>
             </StyledRepositoy>

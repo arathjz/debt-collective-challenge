@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
-import { StyledLink, StyledNotFound } from './style';
+import { StyledLink, StyledNotFound } from './404.style';
 
 const NotFoundPage = () => (
   <Layout>

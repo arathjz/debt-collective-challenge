@@ -37,7 +37,6 @@ export const repositoryQuery = graphql`
   }
 `;
 
-
 export default function Repository({ data }) {
   const { github: { repository } } = data;
   const {
@@ -71,23 +70,23 @@ export default function Repository({ data }) {
         <div className="repository-data">
           <p>
             <Icon name="star" />
-            <span>{stargazers.totalCount}</span>
+            <span data-testid="stars">{stargazers.totalCount}</span>
           </p>
           <p>
             <Icon name="fork" />
-            <span>{forks.totalCount}</span>
+            <span data-testid="forks">{forks.totalCount}</span>
           </p>
           <p>
             <Icon name="pullRequest" />
-            <span>{pullRequests.totalCount}</span>
+            <span data-testid="pullRequests">{pullRequests.totalCount}</span>
           </p>
           <p>
             <Icon name="watch" />
-            <span>{watchers.totalCount}</span>
+            <span data-testid="watchers">{watchers.totalCount}</span>
           </p>
           <p>
             <Icon name="issue" />
-            <span>{issues.totalCount}</span>
+            <span data-testid="issues">{issues.totalCount}</span>
           </p>
         </div>
         <p>{description}</p>

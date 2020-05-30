@@ -6,7 +6,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 function SEO({
   description, lang, meta, title,
 }) {
-  const { site } = useStaticQuery(
+  const { site = {} } = useStaticQuery(
     graphql`
       query {
         site {
@@ -19,16 +19,17 @@ function SEO({
       }
     `,
   );
+  const { siteMetadata = {} } = site;
 
-  const metaDescription = description || site.siteMetadata.description;
+  const metaDescription = description || siteMetadata.description;
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title || site.siteMetadata.title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      title={title || siteMetadata.title}
+      titleTemplate={`%s | ${siteMetadata.title}`}
       meta={[
         {
           name: 'description',
@@ -52,7 +53,7 @@ function SEO({
         },
         {
           name: 'twitter:creator',
-          content: site.siteMetadata.author,
+          content: siteMetadata.author,
         },
         {
           name: 'twitter:title',

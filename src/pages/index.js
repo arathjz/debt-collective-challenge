@@ -46,7 +46,7 @@ const StyledLink = styled(Link)`
   }
 `;
 
-export default function UsersList() {
+export default function Main() {
   return (
     <Layout>
       <StyledMain>

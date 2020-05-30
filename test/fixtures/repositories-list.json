@@ -1,0 +1,212 @@
+{
+  "github": {
+    "organization": {
+      "name": "The Debt Collective",
+      "login": "debtcollective",
+      "repositories": {
+        "nodes": [
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyMDIzNzI4Mzc=",
+            "name": "fundraising",
+            "description": "Fundraising App",
+            "forks": {
+              "totalCount": 0
+            },
+            "pullRequests": {
+              "totalCount": 180
+            },
+            "watchers": {
+              "totalCount": 2
+            },
+            "stargazers": {
+              "totalCount": 0
+            },
+            "issues": {
+              "totalCount": 74
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyMDI0MzUzNzA=",
+            "name": "student-debt-campaign-netlify",
+            "description": null,
+            "forks": {
+              "totalCount": 0
+            },
+            "pullRequests": {
+              "totalCount": 20
+            },
+            "watchers": {
+              "totalCount": 1
+            },
+            "stargazers": {
+              "totalCount": 0
+            },
+            "issues": {
+              "totalCount": 0
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyMDQ4MTUzODY=",
+            "name": "infra",
+            "description": "Terraform scripts for new infrastructure",
+            "forks": {
+              "totalCount": 0
+            },
+            "pullRequests": {
+              "totalCount": 33
+            },
+            "watchers": {
+              "totalCount": 2
+            },
+            "stargazers": {
+              "totalCount": 0
+            },
+            "issues": {
+              "totalCount": 2
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyMTEyMDI1OTM=",
+            "name": "discourse-versatile-banner",
+            "description": null,
+            "forks": {
+              "totalCount": 0
+            },
+            "pullRequests": {
+              "totalCount": 0
+            },
+            "watchers": {
+              "totalCount": 0
+            },
+            "stargazers": {
+              "totalCount": 0
+            },
+            "issues": {
+              "totalCount": 0
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyMTE1NTkwODQ=",
+            "name": "disputes-api",
+            "description": null,
+            "forks": {
+              "totalCount": 0
+            },
+            "pullRequests": {
+              "totalCount": 34
+            },
+            "watchers": {
+              "totalCount": 2
+            },
+            "stargazers": {
+              "totalCount": 0
+            },
+            "issues": {
+              "totalCount": 0
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyMTI4NzA2NzE=",
+            "name": "campaign-api",
+            "description": "A node application that servers a GraphQL API to interact with users that needs to complete actions for certain campaigns",
+            "forks": {
+              "totalCount": 0
+            },
+            "pullRequests": {
+              "totalCount": 35
+            },
+            "watchers": {
+              "totalCount": 2
+            },
+            "stargazers": {
+              "totalCount": 0
+            },
+            "issues": {
+              "totalCount": 8
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyMTI5MjU1Njg=",
+            "name": "packages",
+            "description": "packages used across apps",
+            "forks": {
+              "totalCount": 0
+            },
+            "pullRequests": {
+              "totalCount": 28
+            },
+            "watchers": {
+              "totalCount": 2
+            },
+            "stargazers": {
+              "totalCount": 0
+            },
+            "issues": {
+              "totalCount": 0
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyMTUwNjc5Mzk=",
+            "name": "academics-letter",
+            "description": "Academics Letter webpage",
+            "forks": {
+              "totalCount": 0
+            },
+            "pullRequests": {
+              "totalCount": 16
+            },
+            "watchers": {
+              "totalCount": 2
+            },
+            "stargazers": {
+              "totalCount": 0
+            },
+            "issues": {
+              "totalCount": 14
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyMTY0NjkzMzg=",
+            "name": "gatsby-plugin-amplitude-analytics",
+            "description": "Gatsby plugin to add Amplitude analytics onto a site",
+            "forks": {
+              "totalCount": 0
+            },
+            "pullRequests": {
+              "totalCount": 0
+            },
+            "watchers": {
+              "totalCount": 0
+            },
+            "stargazers": {
+              "totalCount": 0
+            },
+            "issues": {
+              "totalCount": 0
+            }
+          },
+          {
+            "id": "MDEwOlJlcG9zaXRvcnkyNDAxNTM0Nzg=",
+            "name": "discourse-skylight",
+            "description": "Skylight.io integration for Discourse",
+            "forks": {
+              "totalCount": 0
+            },
+            "pullRequests": {
+              "totalCount": 0
+            },
+            "watchers": {
+              "totalCount": 3
+            },
+            "stargazers": {
+              "totalCount": 1
+            },
+            "issues": {
+              "totalCount": 0
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -14,7 +14,7 @@ export default function ThemeToggler() {
 
   return (
     <StyledButton onClick={toggleTheme} type="button" aria-label="Left Align">
-      <img src={icon} alt="" />
+      <img src={icon} alt="toggle dark/light theme" />
     </StyledButton>
   );
 }

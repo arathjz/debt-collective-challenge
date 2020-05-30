@@ -8,15 +8,15 @@ module.exports = {
   extends: [
     'airbnb',
     'plugin:react/recommended',
-    'plugin:jest/recommended'
+    'plugin:jest/recommended',
   ],
   globals: {
     Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly'
+    SharedArrayBuffer: 'readonly',
   },
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: [
     'better-styled-components',
@@ -32,7 +32,7 @@ module.exports = {
     'import/extensions': [0],
     'import/no-unresolved': [0],
     'import/prefer-default-export': 0,
-    'max-len': ['error', { 'code': 100 }],
+    'max-len': ['error', { code: 100 }],
     'no-shadow': [0],
     'no-underscore-dangle': 0,
     'no-unused-expressions': ['error', { allowTernary: true }],
@@ -43,6 +43,6 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
     'react/jsx-props-no-spreading': [0],
-    'react/jsx-props-no-spreading': [0]
+    'react/jsx-props-no-spreading': [0],
   },
 };

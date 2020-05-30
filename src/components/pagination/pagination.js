@@ -9,13 +9,13 @@ export default function Pagination({ pageContext }) {
   return (
     <StyledPagination>
       {
-        Array.from({ length: pageContext.totalPages + 1 }).map((_, index) => {
+        Array.from({ length: pageContext.totalPages }).map((_, index) => {
           const page = index + 1;
           const isActive = pageContext.currentPage === page;
           const link = `/repositories/${index === 0 ? '' : page}`;
 
           return (
-            <Link to={link} key={index}>
+            <Link to={link} key={index} role="link">
               <StyledPage isActive={isActive}>{page}</StyledPage>
             </Link>
           );

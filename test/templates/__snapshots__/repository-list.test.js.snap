@@ -1,0 +1,1884 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepositoriesList template render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-AxhCb FGZja"
+      >
+        <header
+          class="sc-AxiKw bQuuop"
+        >
+          <div
+            class="content"
+          >
+            <a
+              class="sc-AxirZ cLMVqT"
+              href="/"
+            >
+              <div
+                class=" gatsby-image-wrapper"
+                style="position: relative; overflow: hidden; display: inline-block; width: 50px; height: 50px;"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  src="image"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+                />
+                <picture>
+                  <source
+                    srcset="/static/image.png"
+                  />
+                  <img
+                    alt=""
+                    height="50"
+                    loading="lazy"
+                    src="/static/image.png"
+                    srcset="/static/image.png"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                    width="50"
+                  />
+                </picture>
+                <noscript>
+                  &lt;picture&gt;&lt;source srcset="/static/image.png" /&gt;&lt;img loading="lazy" width="50" height="50" srcset="/static/image.png" src="/static/image.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+                </noscript>
+              </div>
+              <h1 />
+            </a>
+            <button
+              aria-label="Left Align"
+              class="sc-AxjAm esyKCT"
+              type="button"
+            >
+              <img
+                alt="toggle dark/light theme"
+                src="test-file-stub"
+              />
+            </button>
+          </div>
+        </header>
+        <div>
+          <h2
+            class="sc-fzoLsD ciQvPB"
+          >
+            Repositories
+             
+            <span>
+              <i
+                class="sc-AxheI cDXvdV fab fa-github"
+                data-testid="github"
+              />
+               
+            </span>
+             
+          </h2>
+          <section
+            class="sc-Axmtr daCNND"
+          >
+            <div
+              class="sc-AxmLO jUJLLh"
+              data-testid="repository"
+            >
+              <a
+                class="sc-fzozJi bPchOb"
+                href="/repositories/fundraising"
+              >
+                fundraising
+                 
+                <span>
+                  @
+                  debtcollective
+                </span>
+              </a>
+              <p>
+                Fundraising App
+              </p>
+              <div
+                class="icons"
+              >
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-star"
+                    data-testid="star"
+                  />
+                  <span
+                    data-testid="stars"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-utensils"
+                    data-testid="fork"
+                  />
+                  <span
+                    data-testid="forks"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-code-branch"
+                    data-testid="pullRequest"
+                  />
+                  <span
+                    data-testid="pullRequests"
+                  >
+                    180
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-eye"
+                    data-testid="watch"
+                  />
+                  <span
+                    data-testid="watchers"
+                  >
+                    2
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-info-circle"
+                    data-testid="issue"
+                  />
+                  <span
+                    data-testid="issues"
+                  >
+                    74
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-AxmLO jUJLLh"
+              data-testid="repository"
+            >
+              <a
+                class="sc-fzozJi bPchOb"
+                href="/repositories/student-debt-campaign-netlify"
+              >
+                student-debt-campaign-netlify
+                 
+                <span>
+                  @
+                  debtcollective
+                </span>
+              </a>
+              <p>
+                This project does not have description =(
+              </p>
+              <div
+                class="icons"
+              >
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-star"
+                    data-testid="star"
+                  />
+                  <span
+                    data-testid="stars"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-utensils"
+                    data-testid="fork"
+                  />
+                  <span
+                    data-testid="forks"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-code-branch"
+                    data-testid="pullRequest"
+                  />
+                  <span
+                    data-testid="pullRequests"
+                  >
+                    20
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-eye"
+                    data-testid="watch"
+                  />
+                  <span
+                    data-testid="watchers"
+                  >
+                    1
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-info-circle"
+                    data-testid="issue"
+                  />
+                  <span
+                    data-testid="issues"
+                  >
+                    0
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-AxmLO jUJLLh"
+              data-testid="repository"
+            >
+              <a
+                class="sc-fzozJi bPchOb"
+                href="/repositories/infra"
+              >
+                infra
+                 
+                <span>
+                  @
+                  debtcollective
+                </span>
+              </a>
+              <p>
+                Terraform scripts for new infrastructure
+              </p>
+              <div
+                class="icons"
+              >
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-star"
+                    data-testid="star"
+                  />
+                  <span
+                    data-testid="stars"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-utensils"
+                    data-testid="fork"
+                  />
+                  <span
+                    data-testid="forks"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-code-branch"
+                    data-testid="pullRequest"
+                  />
+                  <span
+                    data-testid="pullRequests"
+                  >
+                    33
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-eye"
+                    data-testid="watch"
+                  />
+                  <span
+                    data-testid="watchers"
+                  >
+                    2
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-info-circle"
+                    data-testid="issue"
+                  />
+                  <span
+                    data-testid="issues"
+                  >
+                    2
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-AxmLO jUJLLh"
+              data-testid="repository"
+            >
+              <a
+                class="sc-fzozJi bPchOb"
+                href="/repositories/discourse-versatile-banner"
+              >
+                discourse-versatile-banner
+                 
+                <span>
+                  @
+                  debtcollective
+                </span>
+              </a>
+              <p>
+                This project does not have description =(
+              </p>
+              <div
+                class="icons"
+              >
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-star"
+                    data-testid="star"
+                  />
+                  <span
+                    data-testid="stars"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-utensils"
+                    data-testid="fork"
+                  />
+                  <span
+                    data-testid="forks"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-code-branch"
+                    data-testid="pullRequest"
+                  />
+                  <span
+                    data-testid="pullRequests"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-eye"
+                    data-testid="watch"
+                  />
+                  <span
+                    data-testid="watchers"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-info-circle"
+                    data-testid="issue"
+                  />
+                  <span
+                    data-testid="issues"
+                  >
+                    0
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-AxmLO jUJLLh"
+              data-testid="repository"
+            >
+              <a
+                class="sc-fzozJi bPchOb"
+                href="/repositories/disputes-api"
+              >
+                disputes-api
+                 
+                <span>
+                  @
+                  debtcollective
+                </span>
+              </a>
+              <p>
+                This project does not have description =(
+              </p>
+              <div
+                class="icons"
+              >
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-star"
+                    data-testid="star"
+                  />
+                  <span
+                    data-testid="stars"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-utensils"
+                    data-testid="fork"
+                  />
+                  <span
+                    data-testid="forks"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-code-branch"
+                    data-testid="pullRequest"
+                  />
+                  <span
+                    data-testid="pullRequests"
+                  >
+                    34
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-eye"
+                    data-testid="watch"
+                  />
+                  <span
+                    data-testid="watchers"
+                  >
+                    2
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-info-circle"
+                    data-testid="issue"
+                  />
+                  <span
+                    data-testid="issues"
+                  >
+                    0
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-AxmLO jUJLLh"
+              data-testid="repository"
+            >
+              <a
+                class="sc-fzozJi bPchOb"
+                href="/repositories/campaign-api"
+              >
+                campaign-api
+                 
+                <span>
+                  @
+                  debtcollective
+                </span>
+              </a>
+              <p>
+                A node application that servers a GraphQL API to interact with users that needs to complete actions for certain campaigns
+              </p>
+              <div
+                class="icons"
+              >
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-star"
+                    data-testid="star"
+                  />
+                  <span
+                    data-testid="stars"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-utensils"
+                    data-testid="fork"
+                  />
+                  <span
+                    data-testid="forks"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-code-branch"
+                    data-testid="pullRequest"
+                  />
+                  <span
+                    data-testid="pullRequests"
+                  >
+                    35
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-eye"
+                    data-testid="watch"
+                  />
+                  <span
+                    data-testid="watchers"
+                  >
+                    2
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-info-circle"
+                    data-testid="issue"
+                  />
+                  <span
+                    data-testid="issues"
+                  >
+                    8
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-AxmLO jUJLLh"
+              data-testid="repository"
+            >
+              <a
+                class="sc-fzozJi bPchOb"
+                href="/repositories/packages"
+              >
+                packages
+                 
+                <span>
+                  @
+                  debtcollective
+                </span>
+              </a>
+              <p>
+                packages used across apps
+              </p>
+              <div
+                class="icons"
+              >
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-star"
+                    data-testid="star"
+                  />
+                  <span
+                    data-testid="stars"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-utensils"
+                    data-testid="fork"
+                  />
+                  <span
+                    data-testid="forks"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-code-branch"
+                    data-testid="pullRequest"
+                  />
+                  <span
+                    data-testid="pullRequests"
+                  >
+                    28
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-eye"
+                    data-testid="watch"
+                  />
+                  <span
+                    data-testid="watchers"
+                  >
+                    2
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-info-circle"
+                    data-testid="issue"
+                  />
+                  <span
+                    data-testid="issues"
+                  >
+                    0
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-AxmLO jUJLLh"
+              data-testid="repository"
+            >
+              <a
+                class="sc-fzozJi bPchOb"
+                href="/repositories/academics-letter"
+              >
+                academics-letter
+                 
+                <span>
+                  @
+                  debtcollective
+                </span>
+              </a>
+              <p>
+                Academics Letter webpage
+              </p>
+              <div
+                class="icons"
+              >
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-star"
+                    data-testid="star"
+                  />
+                  <span
+                    data-testid="stars"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-utensils"
+                    data-testid="fork"
+                  />
+                  <span
+                    data-testid="forks"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-code-branch"
+                    data-testid="pullRequest"
+                  />
+                  <span
+                    data-testid="pullRequests"
+                  >
+                    16
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-eye"
+                    data-testid="watch"
+                  />
+                  <span
+                    data-testid="watchers"
+                  >
+                    2
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-info-circle"
+                    data-testid="issue"
+                  />
+                  <span
+                    data-testid="issues"
+                  >
+                    14
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-AxmLO jUJLLh"
+              data-testid="repository"
+            >
+              <a
+                class="sc-fzozJi bPchOb"
+                href="/repositories/gatsby-plugin-amplitude-analytics"
+              >
+                gatsby-plugin-amplitude-analytics
+                 
+                <span>
+                  @
+                  debtcollective
+                </span>
+              </a>
+              <p>
+                Gatsby plugin to add Amplitude analytics onto a site
+              </p>
+              <div
+                class="icons"
+              >
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-star"
+                    data-testid="star"
+                  />
+                  <span
+                    data-testid="stars"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-utensils"
+                    data-testid="fork"
+                  />
+                  <span
+                    data-testid="forks"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-code-branch"
+                    data-testid="pullRequest"
+                  />
+                  <span
+                    data-testid="pullRequests"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-eye"
+                    data-testid="watch"
+                  />
+                  <span
+                    data-testid="watchers"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-info-circle"
+                    data-testid="issue"
+                  />
+                  <span
+                    data-testid="issues"
+                  >
+                    0
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-AxmLO jUJLLh"
+              data-testid="repository"
+            >
+              <a
+                class="sc-fzozJi bPchOb"
+                href="/repositories/discourse-skylight"
+              >
+                discourse-skylight
+                 
+                <span>
+                  @
+                  debtcollective
+                </span>
+              </a>
+              <p>
+                Skylight.io integration for Discourse
+              </p>
+              <div
+                class="icons"
+              >
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-star"
+                    data-testid="star"
+                  />
+                  <span
+                    data-testid="stars"
+                  >
+                    1
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-utensils"
+                    data-testid="fork"
+                  />
+                  <span
+                    data-testid="forks"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-code-branch"
+                    data-testid="pullRequest"
+                  />
+                  <span
+                    data-testid="pullRequests"
+                  >
+                    0
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-eye"
+                    data-testid="watch"
+                  />
+                  <span
+                    data-testid="watchers"
+                  >
+                    3
+                  </span>
+                </p>
+                <p>
+                  <i
+                    class="sc-AxheI cDXvdV fas fa-info-circle"
+                    data-testid="issue"
+                  />
+                  <span
+                    data-testid="issues"
+                  >
+                    0
+                  </span>
+                </p>
+              </div>
+            </div>
+          </section>
+          <ul
+            class="sc-AxhUy IRfDE"
+          >
+            <a
+              href="/repositories/"
+              role="link"
+            >
+              <li
+                class="sc-AxgMl jplidA"
+              >
+                1
+              </li>
+            </a>
+            <a
+              href="/repositories/2"
+              role="link"
+            >
+              <li
+                class="sc-AxgMl jplidA"
+              >
+                2
+              </li>
+            </a>
+            <a
+              href="/repositories/3"
+              role="link"
+            >
+              <li
+                class="sc-AxgMl jplidA"
+              >
+                3
+              </li>
+            </a>
+            <a
+              href="/repositories/4"
+              role="link"
+            >
+              <li
+                class="sc-AxgMl jplidA"
+              >
+                4
+              </li>
+            </a>
+            <a
+              href="/repositories/5"
+              role="link"
+            >
+              <li
+                class="sc-AxgMl cvOUDm"
+              >
+                5
+              </li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AxhCb FGZja"
+    >
+      <header
+        class="sc-AxiKw bQuuop"
+      >
+        <div
+          class="content"
+        >
+          <a
+            class="sc-AxirZ cLMVqT"
+            href="/"
+          >
+            <div
+              class=" gatsby-image-wrapper"
+              style="position: relative; overflow: hidden; display: inline-block; width: 50px; height: 50px;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="image"
+                style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+              />
+              <picture>
+                <source
+                  srcset="/static/image.png"
+                />
+                <img
+                  alt=""
+                  height="50"
+                  loading="lazy"
+                  src="/static/image.png"
+                  srcset="/static/image.png"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                  width="50"
+                />
+              </picture>
+              <noscript>
+                &lt;picture&gt;&lt;source srcset="/static/image.png" /&gt;&lt;img loading="lazy" width="50" height="50" srcset="/static/image.png" src="/static/image.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+              </noscript>
+            </div>
+            <h1 />
+          </a>
+          <button
+            aria-label="Left Align"
+            class="sc-AxjAm esyKCT"
+            type="button"
+          >
+            <img
+              alt="toggle dark/light theme"
+              src="test-file-stub"
+            />
+          </button>
+        </div>
+      </header>
+      <div>
+        <h2
+          class="sc-fzoLsD ciQvPB"
+        >
+          Repositories
+           
+          <span>
+            <i
+              class="sc-AxheI cDXvdV fab fa-github"
+              data-testid="github"
+            />
+             
+          </span>
+           
+        </h2>
+        <section
+          class="sc-Axmtr daCNND"
+        >
+          <div
+            class="sc-AxmLO jUJLLh"
+            data-testid="repository"
+          >
+            <a
+              class="sc-fzozJi bPchOb"
+              href="/repositories/fundraising"
+            >
+              fundraising
+               
+              <span>
+                @
+                debtcollective
+              </span>
+            </a>
+            <p>
+              Fundraising App
+            </p>
+            <div
+              class="icons"
+            >
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-star"
+                  data-testid="star"
+                />
+                <span
+                  data-testid="stars"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-utensils"
+                  data-testid="fork"
+                />
+                <span
+                  data-testid="forks"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-code-branch"
+                  data-testid="pullRequest"
+                />
+                <span
+                  data-testid="pullRequests"
+                >
+                  180
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-eye"
+                  data-testid="watch"
+                />
+                <span
+                  data-testid="watchers"
+                >
+                  2
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-info-circle"
+                  data-testid="issue"
+                />
+                <span
+                  data-testid="issues"
+                >
+                  74
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="sc-AxmLO jUJLLh"
+            data-testid="repository"
+          >
+            <a
+              class="sc-fzozJi bPchOb"
+              href="/repositories/student-debt-campaign-netlify"
+            >
+              student-debt-campaign-netlify
+               
+              <span>
+                @
+                debtcollective
+              </span>
+            </a>
+            <p>
+              This project does not have description =(
+            </p>
+            <div
+              class="icons"
+            >
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-star"
+                  data-testid="star"
+                />
+                <span
+                  data-testid="stars"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-utensils"
+                  data-testid="fork"
+                />
+                <span
+                  data-testid="forks"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-code-branch"
+                  data-testid="pullRequest"
+                />
+                <span
+                  data-testid="pullRequests"
+                >
+                  20
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-eye"
+                  data-testid="watch"
+                />
+                <span
+                  data-testid="watchers"
+                >
+                  1
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-info-circle"
+                  data-testid="issue"
+                />
+                <span
+                  data-testid="issues"
+                >
+                  0
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="sc-AxmLO jUJLLh"
+            data-testid="repository"
+          >
+            <a
+              class="sc-fzozJi bPchOb"
+              href="/repositories/infra"
+            >
+              infra
+               
+              <span>
+                @
+                debtcollective
+              </span>
+            </a>
+            <p>
+              Terraform scripts for new infrastructure
+            </p>
+            <div
+              class="icons"
+            >
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-star"
+                  data-testid="star"
+                />
+                <span
+                  data-testid="stars"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-utensils"
+                  data-testid="fork"
+                />
+                <span
+                  data-testid="forks"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-code-branch"
+                  data-testid="pullRequest"
+                />
+                <span
+                  data-testid="pullRequests"
+                >
+                  33
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-eye"
+                  data-testid="watch"
+                />
+                <span
+                  data-testid="watchers"
+                >
+                  2
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-info-circle"
+                  data-testid="issue"
+                />
+                <span
+                  data-testid="issues"
+                >
+                  2
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="sc-AxmLO jUJLLh"
+            data-testid="repository"
+          >
+            <a
+              class="sc-fzozJi bPchOb"
+              href="/repositories/discourse-versatile-banner"
+            >
+              discourse-versatile-banner
+               
+              <span>
+                @
+                debtcollective
+              </span>
+            </a>
+            <p>
+              This project does not have description =(
+            </p>
+            <div
+              class="icons"
+            >
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-star"
+                  data-testid="star"
+                />
+                <span
+                  data-testid="stars"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-utensils"
+                  data-testid="fork"
+                />
+                <span
+                  data-testid="forks"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-code-branch"
+                  data-testid="pullRequest"
+                />
+                <span
+                  data-testid="pullRequests"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-eye"
+                  data-testid="watch"
+                />
+                <span
+                  data-testid="watchers"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-info-circle"
+                  data-testid="issue"
+                />
+                <span
+                  data-testid="issues"
+                >
+                  0
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="sc-AxmLO jUJLLh"
+            data-testid="repository"
+          >
+            <a
+              class="sc-fzozJi bPchOb"
+              href="/repositories/disputes-api"
+            >
+              disputes-api
+               
+              <span>
+                @
+                debtcollective
+              </span>
+            </a>
+            <p>
+              This project does not have description =(
+            </p>
+            <div
+              class="icons"
+            >
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-star"
+                  data-testid="star"
+                />
+                <span
+                  data-testid="stars"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-utensils"
+                  data-testid="fork"
+                />
+                <span
+                  data-testid="forks"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-code-branch"
+                  data-testid="pullRequest"
+                />
+                <span
+                  data-testid="pullRequests"
+                >
+                  34
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-eye"
+                  data-testid="watch"
+                />
+                <span
+                  data-testid="watchers"
+                >
+                  2
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-info-circle"
+                  data-testid="issue"
+                />
+                <span
+                  data-testid="issues"
+                >
+                  0
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="sc-AxmLO jUJLLh"
+            data-testid="repository"
+          >
+            <a
+              class="sc-fzozJi bPchOb"
+              href="/repositories/campaign-api"
+            >
+              campaign-api
+               
+              <span>
+                @
+                debtcollective
+              </span>
+            </a>
+            <p>
+              A node application that servers a GraphQL API to interact with users that needs to complete actions for certain campaigns
+            </p>
+            <div
+              class="icons"
+            >
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-star"
+                  data-testid="star"
+                />
+                <span
+                  data-testid="stars"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-utensils"
+                  data-testid="fork"
+                />
+                <span
+                  data-testid="forks"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-code-branch"
+                  data-testid="pullRequest"
+                />
+                <span
+                  data-testid="pullRequests"
+                >
+                  35
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-eye"
+                  data-testid="watch"
+                />
+                <span
+                  data-testid="watchers"
+                >
+                  2
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-info-circle"
+                  data-testid="issue"
+                />
+                <span
+                  data-testid="issues"
+                >
+                  8
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="sc-AxmLO jUJLLh"
+            data-testid="repository"
+          >
+            <a
+              class="sc-fzozJi bPchOb"
+              href="/repositories/packages"
+            >
+              packages
+               
+              <span>
+                @
+                debtcollective
+              </span>
+            </a>
+            <p>
+              packages used across apps
+            </p>
+            <div
+              class="icons"
+            >
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-star"
+                  data-testid="star"
+                />
+                <span
+                  data-testid="stars"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-utensils"
+                  data-testid="fork"
+                />
+                <span
+                  data-testid="forks"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-code-branch"
+                  data-testid="pullRequest"
+                />
+                <span
+                  data-testid="pullRequests"
+                >
+                  28
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-eye"
+                  data-testid="watch"
+                />
+                <span
+                  data-testid="watchers"
+                >
+                  2
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-info-circle"
+                  data-testid="issue"
+                />
+                <span
+                  data-testid="issues"
+                >
+                  0
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="sc-AxmLO jUJLLh"
+            data-testid="repository"
+          >
+            <a
+              class="sc-fzozJi bPchOb"
+              href="/repositories/academics-letter"
+            >
+              academics-letter
+               
+              <span>
+                @
+                debtcollective
+              </span>
+            </a>
+            <p>
+              Academics Letter webpage
+            </p>
+            <div
+              class="icons"
+            >
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-star"
+                  data-testid="star"
+                />
+                <span
+                  data-testid="stars"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-utensils"
+                  data-testid="fork"
+                />
+                <span
+                  data-testid="forks"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-code-branch"
+                  data-testid="pullRequest"
+                />
+                <span
+                  data-testid="pullRequests"
+                >
+                  16
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-eye"
+                  data-testid="watch"
+                />
+                <span
+                  data-testid="watchers"
+                >
+                  2
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-info-circle"
+                  data-testid="issue"
+                />
+                <span
+                  data-testid="issues"
+                >
+                  14
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="sc-AxmLO jUJLLh"
+            data-testid="repository"
+          >
+            <a
+              class="sc-fzozJi bPchOb"
+              href="/repositories/gatsby-plugin-amplitude-analytics"
+            >
+              gatsby-plugin-amplitude-analytics
+               
+              <span>
+                @
+                debtcollective
+              </span>
+            </a>
+            <p>
+              Gatsby plugin to add Amplitude analytics onto a site
+            </p>
+            <div
+              class="icons"
+            >
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-star"
+                  data-testid="star"
+                />
+                <span
+                  data-testid="stars"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-utensils"
+                  data-testid="fork"
+                />
+                <span
+                  data-testid="forks"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-code-branch"
+                  data-testid="pullRequest"
+                />
+                <span
+                  data-testid="pullRequests"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-eye"
+                  data-testid="watch"
+                />
+                <span
+                  data-testid="watchers"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-info-circle"
+                  data-testid="issue"
+                />
+                <span
+                  data-testid="issues"
+                >
+                  0
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="sc-AxmLO jUJLLh"
+            data-testid="repository"
+          >
+            <a
+              class="sc-fzozJi bPchOb"
+              href="/repositories/discourse-skylight"
+            >
+              discourse-skylight
+               
+              <span>
+                @
+                debtcollective
+              </span>
+            </a>
+            <p>
+              Skylight.io integration for Discourse
+            </p>
+            <div
+              class="icons"
+            >
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-star"
+                  data-testid="star"
+                />
+                <span
+                  data-testid="stars"
+                >
+                  1
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-utensils"
+                  data-testid="fork"
+                />
+                <span
+                  data-testid="forks"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-code-branch"
+                  data-testid="pullRequest"
+                />
+                <span
+                  data-testid="pullRequests"
+                >
+                  0
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-eye"
+                  data-testid="watch"
+                />
+                <span
+                  data-testid="watchers"
+                >
+                  3
+                </span>
+              </p>
+              <p>
+                <i
+                  class="sc-AxheI cDXvdV fas fa-info-circle"
+                  data-testid="issue"
+                />
+                <span
+                  data-testid="issues"
+                >
+                  0
+                </span>
+              </p>
+            </div>
+          </div>
+        </section>
+        <ul
+          class="sc-AxhUy IRfDE"
+        >
+          <a
+            href="/repositories/"
+            role="link"
+          >
+            <li
+              class="sc-AxgMl jplidA"
+            >
+              1
+            </li>
+          </a>
+          <a
+            href="/repositories/2"
+            role="link"
+          >
+            <li
+              class="sc-AxgMl jplidA"
+            >
+              2
+            </li>
+          </a>
+          <a
+            href="/repositories/3"
+            role="link"
+          >
+            <li
+              class="sc-AxgMl jplidA"
+            >
+              3
+            </li>
+          </a>
+          <a
+            href="/repositories/4"
+            role="link"
+          >
+            <li
+              class="sc-AxgMl jplidA"
+            >
+              4
+            </li>
+          </a>
+          <a
+            href="/repositories/5"
+            role="link"
+          >
+            <li
+              class="sc-AxgMl cvOUDm"
+            >
+              5
+            </li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
