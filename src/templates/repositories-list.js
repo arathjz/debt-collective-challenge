@@ -10,7 +10,7 @@ import {
   StyledList,
   StyledRepositoy,
   StyledSubtitle,
-} from './repository-list.style';
+} from './repositories-list.style';
 
 export const repositoriesListQuery = graphql`
   query getRepositories($after: String) {
@@ -66,15 +66,15 @@ export default function RepositoriesList({ data, pageContext }) {
           const {
             description,
             forks,
+            issues,
+            name,
             pullRequests,
             stargazers,
             watchers,
-            name,
-            issues,
           } = node;
 
           return (
-            <StyledRepositoy style={({ color: 'white ' })} key={node.id}>
+            <StyledRepositoy key={node.id}>
               <StyledLink to={`/repositories/${name}`}>
                 {name}
                 {' '}
@@ -83,7 +83,7 @@ export default function RepositoriesList({ data, pageContext }) {
                   {organization.login}
                 </span>
               </StyledLink>
-              <p>{description}</p>
+              <p>{description || 'This project does not have description =('}</p>
               <div className="icons">
                 <p>
                   <Icon name="star" />

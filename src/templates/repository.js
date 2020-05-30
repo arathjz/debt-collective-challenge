@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import { graphql } from 'gatsby';
+
 import Layout from '../components/layout';
+import Icon from '../components/icon';
+import { StyledContentHeader, StyledGoBack } from './repository.style';
 
 export const repositoryQuery = graphql`
   query getRepository($name: String!) {
@@ -13,6 +15,7 @@ export const repositoryQuery = graphql`
         createdAt
         updatedAt
         description
+        url
         forks {
           totalCount
         }
@@ -37,11 +40,58 @@ export const repositoryQuery = graphql`
 
 export default function Repository({ data }) {
   const { github: { repository } } = data;
-  const { name } = repository;
+  const {
+    description,
+    forks,
+    issues,
+    name,
+    pullRequests,
+    stargazers,
+    url,
+    watchers,
+  } = repository;
 
   return (
     <Layout title={name}>
-      Hey
+      <StyledGoBack to="/repositories">&larr; Go back to repositories list</StyledGoBack>
+      <StyledContentHeader>
+        <h3>
+          <span>
+            <Icon name="git" />
+            {' '}
+          </span>
+          {name}
+          {' '}
+          {' '}
+        </h3>
+        <a href={url} target="_blank" rel="noreferrer">
+          <Icon name="link" />
+          <span>{url}</span>
+        </a>
+        <div className="repository-data">
+          <p>
+            <Icon name="star" />
+            <span>{stargazers.totalCount}</span>
+          </p>
+          <p>
+            <Icon name="fork" />
+            <span>{forks.totalCount}</span>
+          </p>
+          <p>
+            <Icon name="pullRequest" />
+            <span>{pullRequests.totalCount}</span>
+          </p>
+          <p>
+            <Icon name="watch" />
+            <span>{watchers.totalCount}</span>
+          </p>
+          <p>
+            <Icon name="issue" />
+            <span>{issues.totalCount}</span>
+          </p>
+        </div>
+        <p>{description}</p>
+      </StyledContentHeader>
     </Layout>
   );
 }
@@ -50,7 +100,24 @@ Repository.propTypes = {
   data: PropTypes.shape({
     github: PropTypes.shape({
       repository: PropTypes.shape({
+        description: PropTypes.string,
+        forks: PropTypes.shape({
+          totalCount: PropTypes.number,
+        }),
+        issues: PropTypes.shape({
+          totalCount: PropTypes.number,
+        }),
         name: PropTypes.string,
+        pullRequests: PropTypes.shape({
+          totalCount: PropTypes.number,
+        }),
+        stargazers: PropTypes.shape({
+          totalCount: PropTypes.number,
+        }),
+        url: PropTypes.string,
+        watchers: PropTypes.shape({
+          totalCount: PropTypes.number,
+        }),
       }),
     }),
   }).isRequired,

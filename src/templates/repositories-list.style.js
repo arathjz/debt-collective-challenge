@@ -13,18 +13,25 @@ const StyledList = styled.section`
 `;
 
 const StyledRepositoy = styled.div`
+  align-items: center;
   background: ${({ theme }) => theme.alternary};
   border: 1px solid ${({ theme }) => theme.secondary};
-  border-radius: 1rem;
+  border-radius: 1.3rem;
+  color: ${({ theme }) => theme.textColor};
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
   padding: 1rem 2rem;
 
-  > p {
+  * {
     color: ${({ theme }) => theme.textColor};
+    word-break: break-all;
+  }
+
+  > p {
     font-size: 1rem;
   }
 
   .icons p {
-    color: ${({ theme }) => theme.textColor};
     display: inline-block;
     margin-right: 1rem;
 
@@ -32,11 +39,14 @@ const StyledRepositoy = styled.div`
       margin-left: 4px;
     }
   }
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
 `;
 
 const StyledLink = styled(Link)`
   border-bottom: 1px solid transparent;
-  color: ${({ theme }) => theme.textColor};
   font-size: 1.5rem;
   padding: 2px;
   text-decoration: none;

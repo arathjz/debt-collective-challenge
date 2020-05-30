@@ -38,4 +38,8 @@ export default function Icon({ name }) {
   if (name === 'github') {
     return <StyledIcon className="fab fa-github" />;
   }
+
+  if (name === 'git') {
+    return <StyledIcon className="fab fa-git-alt" />;
+  }
 }
