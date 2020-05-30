@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
     min-height: 100vh;
     overflow-x: hidden;
     font-size: 12px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Helvetica', 'SF Pro' ,sans-serif;
   }
 
   * {

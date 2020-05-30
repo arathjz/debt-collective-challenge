@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`404 should render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-AxhCb FGZja"
+      >
+        <header
+          class="sc-AxiKw bQuuop"
+        >
+          <div
+            class="content"
+          >
+            <a
+              class="sc-AxirZ cLMVqT"
+              href="/"
+            >
+              <div
+                class=" gatsby-image-wrapper"
+                style="position: relative; overflow: hidden; display: inline-block; width: 50px; height: 50px;"
+              >
+                <img
+                  alt=""
+                  aria-hidden="true"
+                  src="image"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+                />
+                <picture>
+                  <source
+                    srcset="/static/image.png"
+                  />
+                  <img
+                    alt=""
+                    height="50"
+                    loading="lazy"
+                    src="/static/image.png"
+                    srcset="/static/image.png"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                    width="50"
+                  />
+                </picture>
+                <noscript>
+                  &lt;picture&gt;&lt;source srcset="/static/image.png" /&gt;&lt;img loading="lazy" width="50" height="50" srcset="/static/image.png" src="/static/image.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+                </noscript>
+              </div>
+              <h1 />
+            </a>
+            <button
+              aria-label="Left Align"
+              class="sc-AxjAm esyKCT"
+              type="button"
+            >
+              <img
+                alt="toggle dark/light theme"
+                src="test-file-stub"
+              />
+            </button>
+          </div>
+        </header>
+        <div>
+          <div
+            class="sc-AxhUy cKMrjB"
+          >
+            <div
+              class=" gatsby-image-wrapper"
+              style="position: relative; overflow: hidden; display: inline-block; width: 50px; height: 50px;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="image"
+                style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+              />
+              <picture>
+                <source
+                  srcset="/static/image.png"
+                />
+                <img
+                  alt=""
+                  height="50"
+                  loading="lazy"
+                  src="/static/image.png"
+                  srcset="/static/image.png"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                  width="50"
+                />
+              </picture>
+              <noscript>
+                &lt;picture&gt;&lt;source srcset="/static/image.png" /&gt;&lt;img loading="lazy" width="50" height="50" srcset="/static/image.png" src="/static/image.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+              </noscript>
+            </div>
+            <h2>
+              NOT FOUND
+            </h2>
+            <h3>
+              We are sorry this content it is not available, in the meantime, you might want to take a look at our repositories
+            </h3>
+            <a
+              class="sc-AxgMl inxGsF"
+              href="/repositories"
+            >
+              View repositories
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AxhCb FGZja"
+    >
+      <header
+        class="sc-AxiKw bQuuop"
+      >
+        <div
+          class="content"
+        >
+          <a
+            class="sc-AxirZ cLMVqT"
+            href="/"
+          >
+            <div
+              class=" gatsby-image-wrapper"
+              style="position: relative; overflow: hidden; display: inline-block; width: 50px; height: 50px;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="image"
+                style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+              />
+              <picture>
+                <source
+                  srcset="/static/image.png"
+                />
+                <img
+                  alt=""
+                  height="50"
+                  loading="lazy"
+                  src="/static/image.png"
+                  srcset="/static/image.png"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                  width="50"
+                />
+              </picture>
+              <noscript>
+                &lt;picture&gt;&lt;source srcset="/static/image.png" /&gt;&lt;img loading="lazy" width="50" height="50" srcset="/static/image.png" src="/static/image.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+              </noscript>
+            </div>
+            <h1 />
+          </a>
+          <button
+            aria-label="Left Align"
+            class="sc-AxjAm esyKCT"
+            type="button"
+          >
+            <img
+              alt="toggle dark/light theme"
+              src="test-file-stub"
+            />
+          </button>
+        </div>
+      </header>
+      <div>
+        <div
+          class="sc-AxhUy cKMrjB"
+        >
+          <div
+            class=" gatsby-image-wrapper"
+            style="position: relative; overflow: hidden; display: inline-block; width: 50px; height: 50px;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src="image"
+              style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+            />
+            <picture>
+              <source
+                srcset="/static/image.png"
+              />
+              <img
+                alt=""
+                height="50"
+                loading="lazy"
+                src="/static/image.png"
+                srcset="/static/image.png"
+                style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+                width="50"
+              />
+            </picture>
+            <noscript>
+              &lt;picture&gt;&lt;source srcset="/static/image.png" /&gt;&lt;img loading="lazy" width="50" height="50" srcset="/static/image.png" src="/static/image.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+            </noscript>
+          </div>
+          <h2>
+            NOT FOUND
+          </h2>
+          <h3>
+            We are sorry this content it is not available, in the meantime, you might want to take a look at our repositories
+          </h3>
+          <a
+            class="sc-AxgMl inxGsF"
+            href="/repositories"
+          >
+            View repositories
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
