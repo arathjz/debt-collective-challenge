@@ -55,7 +55,7 @@ export default function RepositoriesList({ data, pageContext }) {
         Repositories
         {' '}
         <span>
-          <Icon name="github" />
+          <Icon name="github" width="36" height="36" />
           {' '}
         </span>
         {' '}

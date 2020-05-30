@@ -64,9 +64,7 @@ function SEO({
           content: metaDescription,
         },
       ].concat(meta)}
-    >
-      <script src="https://kit.fontawesome.com/604344687d.js" crossOrigin="anonymous" />
-    </Helmet>
+    />
   );
 }
 

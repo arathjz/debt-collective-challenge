@@ -22,6 +22,20 @@ const StyledLayout = styled.div`
   max-width: 1400px;
   padding: 2rem;
   padding-top: 10rem;
+
+  footer {
+    * {
+      color: ${({ theme }) => theme.textColor};
+    }
+
+    p {
+      text-align: center;
+      
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
 `;
 
 export {

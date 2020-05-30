@@ -56,7 +56,7 @@ export default function Repository({ data }) {
       <StyledContentHeader>
         <h3>
           <span>
-            <Icon name="git" />
+            <Icon name="git" width="36" height="36" />
             {' '}
           </span>
           {name}

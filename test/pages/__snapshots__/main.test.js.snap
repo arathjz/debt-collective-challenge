@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-AxhCb FGZja"
+        class="sc-AxhCb BIYNM"
       >
         <header
           class="sc-AxiKw bQuuop"
@@ -75,12 +75,37 @@ Object {
             </a>
           </div>
         </div>
+        <footer>
+          <p>
+            Icons powered by
+             
+            <a
+              href="https://fontawesome.com/license"
+              rel="noreferrer"
+              target="_blank"
+            >
+              FontAwesome
+            </a>
+          </p>
+          <p>
+            Build with ♥ by
+             
+            <a
+              href="https://github.com/arathjz"
+              rel="noreferrer"
+              target="_blank"
+            >
+              @arathjz
+            </a>
+             
+          </p>
+        </footer>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-AxhCb FGZja"
+      class="sc-AxhCb BIYNM"
     >
       <header
         class="sc-AxiKw bQuuop"
@@ -149,6 +174,31 @@ Object {
           </a>
         </div>
       </div>
+      <footer>
+        <p>
+          Icons powered by
+           
+          <a
+            href="https://fontawesome.com/license"
+            rel="noreferrer"
+            target="_blank"
+          >
+            FontAwesome
+          </a>
+        </p>
+        <p>
+          Build with ♥ by
+           
+          <a
+            href="https://github.com/arathjz"
+            rel="noreferrer"
+            target="_blank"
+          >
+            @arathjz
+          </a>
+           
+        </p>
+      </footer>
     </div>
   </div>,
   "debug": [Function],

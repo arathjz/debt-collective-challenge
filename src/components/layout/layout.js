@@ -16,6 +16,19 @@ function Layout({ children, title }) {
       <GlobalStyle />
       <Header siteTitle={organization.name} />
       <div>{children}</div>
+      <footer>
+        <p>
+          Icons powered by
+          {' '}
+          <a rel="noreferrer" target="_blank" href="https://fontawesome.com/license">FontAwesome</a>
+        </p>
+        <p>
+          Build with &hearts; by
+          {' '}
+          <a rel="noreferrer" target="_blank" href="https://github.com/arathjz">@arathjz</a>
+          {' '}
+        </p>
+      </footer>
     </StyledLayout>
   );
 }
