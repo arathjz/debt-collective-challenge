@@ -65,6 +65,7 @@ function SEO({
       ].concat(meta)}
     >
       <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+      <script src="https://kit.fontawesome.com/604344687d.js" crossOrigin="anonymous" />
     </Helmet>
   );
 }

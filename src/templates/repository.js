@@ -25,6 +25,9 @@ export const repositoryQuery = graphql`
         stargazers {
           totalCount
         }
+        issues {
+          totalCount
+        }
         url
       }
     }

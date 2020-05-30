@@ -20,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
 const StyledLayout = styled.div`
   margin: auto;
   max-width: 1400px;
+  padding: 2rem;
   padding-top: 10rem;
 `;
 

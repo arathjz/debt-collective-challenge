@@ -4,8 +4,10 @@ import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import Pagination from '../components/pagination';
+import Icon from '../components/icon';
 import {
   StyledLink,
+  StyledList,
   StyledRepositoy,
   StyledSubtitle,
 } from './repository-list.style';
@@ -15,23 +17,27 @@ export const repositoriesListQuery = graphql`
     github {
       organization(login: "debtcollective") {
         name
-        avatarUrl
         login
         repositories(first: 10, after: $after) {
           nodes {
             id
             name
+            description
+            forks {
+              totalCount
+            }
             pullRequests {
+              totalCount
+            }
+            watchers {
+              totalCount
+            }
+            stargazers {
               totalCount
             }
             issues {
               totalCount
             }
-          }
-          totalCount
-          pageInfo {
-            hasNextPage
-            endCursor
           }
         }
       }
@@ -45,18 +51,66 @@ export default function RepositoriesList({ data, pageContext }) {
 
   return (
     <Layout title="Repositories">
-      <StyledSubtitle>Repositories</StyledSubtitle>
-      {
+      <StyledSubtitle>
+        Repositories
+        {' '}
+        <span>
+          <Icon name="github" />
+          {' '}
+        </span>
+        {' '}
+      </StyledSubtitle>
+      <StyledList>
+        {
         nodes.map(node => {
+          const {
+            description,
+            forks,
+            pullRequests,
+            stargazers,
+            watchers,
+            name,
+            issues,
+          } = node;
+
           return (
             <StyledRepositoy style={({ color: 'white ' })} key={node.id}>
-              <StyledLink to={`/repositories/${node.name}`}>
-                {node.name}
+              <StyledLink to={`/repositories/${name}`}>
+                {name}
+                {' '}
+                <span>
+                  @
+                  {organization.login}
+                </span>
               </StyledLink>
+              <p>{description}</p>
+              <div className="icons">
+                <p>
+                  <Icon name="star" />
+                  <span>{stargazers.totalCount}</span>
+                </p>
+                <p>
+                  <Icon name="fork" />
+                  <span>{forks.totalCount}</span>
+                </p>
+                <p>
+                  <Icon name="pullRequest" />
+                  <span>{pullRequests.totalCount}</span>
+                </p>
+                <p>
+                  <Icon name="watch" />
+                  <span>{watchers.totalCount}</span>
+                </p>
+                <p>
+                  <Icon name="issue" />
+                  <span>{issues.totalCount}</span>
+                </p>
+              </div>
             </StyledRepositoy>
           );
         })
       }
+      </StyledList>
       <Pagination pageContext={pageContext} />
     </Layout>
   );
@@ -68,6 +122,7 @@ RepositoriesList.propTypes = {
       organization: PropTypes.shape({
         avatarUrl: PropTypes.string,
         name: PropTypes.string,
+        login: PropTypes.string,
         repositories: PropTypes.shape({
           nodes: PropTypes.arrayOf(PropTypes.shape({
             name: PropTypes.string,
@@ -76,5 +131,9 @@ RepositoriesList.propTypes = {
         }),
       }),
     }),
+  }).isRequired,
+  pageContext: PropTypes.shape({
+    totalPages: PropTypes.number,
+    currentPage: PropTypes.number,
   }).isRequired,
 };
