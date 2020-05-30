@@ -2,7 +2,7 @@ const path = require('path');
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
-  const reposPerPage = 10;
+  const itemsPerPage = 10;
   const repositoriesPages = [];
 
   const query = `
@@ -31,7 +31,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const { repositories } = data.github.organization;
     const { nodes, totalCount, pageInfo } = repositories;
     const { hasNextPage } = pageInfo;
-    const totalPages = Math.floor(totalCount / reposPerPage);
+    const totalPages = Math.floor(totalCount / itemsPerPage);
 
     repositoriesPages.push(...nodes.map(node => ({ name: node.name })));
     createPage({

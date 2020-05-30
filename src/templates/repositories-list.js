@@ -3,9 +3,11 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
+import Pagination from '../components/pagination';
 import {
   StyledLink,
   StyledRepositoy,
+  StyledSubtitle,
 } from './repository-list.style';
 
 export const repositoriesListQuery = graphql`
@@ -37,12 +39,13 @@ export const repositoriesListQuery = graphql`
   }
 `;
 
-export default function RepositoriesList({ data }) {
+export default function RepositoriesList({ data, pageContext }) {
   const { organization } = data.github;
   const { nodes } = organization.repositories;
 
   return (
     <Layout title="Repositories">
+      <StyledSubtitle>Repositories</StyledSubtitle>
       {
         nodes.map(node => {
           return (
@@ -54,6 +57,7 @@ export default function RepositoriesList({ data }) {
           );
         })
       }
+      <Pagination pageContext={pageContext} />
     </Layout>
   );
 }

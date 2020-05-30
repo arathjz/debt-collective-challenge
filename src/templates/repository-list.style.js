@@ -23,7 +23,15 @@ const StyledLink = styled(Link)`
   }
 `;
 
+const StyledSubtitle = styled.h2`
+  color: ${({ theme }) => theme.textColor};
+  font-size: 2rem;
+  margin: 0 0 2rem 0;
+  text-align: center;
+`;
+
 export {
   StyledLink,
   StyledRepositoy,
+  StyledSubtitle,
 };
