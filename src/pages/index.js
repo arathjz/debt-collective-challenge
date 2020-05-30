@@ -14,6 +14,16 @@ const StyledMain = styled.div`
     color: ${({ theme }) => theme.textColor};
     font-size: 6rem;
   }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 4rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    padding-bottom: 4rem;
+  }
 `;
 
 const StyledLink = styled(Link)`

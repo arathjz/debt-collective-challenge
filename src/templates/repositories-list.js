@@ -42,7 +42,7 @@ export default function RepositoriesList({ data }) {
   const { nodes } = organization.repositories;
 
   return (
-    <Layout>
+    <Layout title="Repositories">
       {
         nodes.map(node => {
           return (

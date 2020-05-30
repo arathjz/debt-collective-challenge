@@ -1,11 +1,4 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-
 import styled, { createGlobalStyle } from 'styled-components';
-
-import useOrganization from '../hooks/useOrganization';
-import SEO from './seo';
-import ThemeToggler from './theme-toggler';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -27,14 +20,10 @@ const GlobalStyle = createGlobalStyle`
 const StyledLayout = styled.div`
   margin: auto;
   max-width: 1400px;
+  padding-top: 10rem;
 
   > section {
-    [src] {
-      height: auto;
-      width: 200px;
-    }
-
-    h1 {
+    h2 {
       color: ${({ theme }) => theme.textColor};
       font-size: 3rem;
       margin: 0 0 0 8rem;
@@ -47,27 +36,25 @@ const StyledLayout = styled.div`
     margin-bottom: 4rem;
     padding-bottom: 4rem;
   }
+
+  @media (max-width: 768px) {
+    > section {
+      flex-direction: column;
+
+      h2 {
+        margin: 3rem 0 0;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    > section h2 {
+      font-size: 2rem;
+    }
+  }
 `;
 
-function Layout({ children }) {
-  const organization = useOrganization();
-
-  return (
-    <StyledLayout>
-      <SEO />
-      <GlobalStyle />
-      <ThemeToggler />
-      <section>
-        <img src={organization.avatarUrl} alt={organization.name} />
-        <h1>{organization.name}</h1>
-      </section>
-      <div>{children}</div>
-    </StyledLayout>
-  );
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+export {
+  GlobalStyle,
+  StyledLayout,
 };
-
-export default Layout;
